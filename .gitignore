@@ -1,0 +1,24 @@
+# Entornos virtuales y caché
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Configuración específica de Chainlit
+.chainlit/
+
+# Archivos ocultos de sistema
+.files/
+desktop.ini
+
+# Entornos y variables sensibles
+.env
+
+# Archivos de entorno de ejecución
+*.pid
+*.swp
+*.swo
+
+# Archivos temporales de VS Code
+.vscode/

@@ -1,0 +1,474 @@
+{
+    "años": [
+        {
+            "año": 2024,
+            "meses": [
+                {
+                    "mes": "Mayo",
+                    "porcentaje_avance_en_celoxis": [
+                        {
+                            "direccion": "Cadena de Suministro",
+                            "nombre": "Nayeli Martínez / Fernando Pérez Cuellar",
+                            "completas": "62%",
+                            "a_tiempo": "19%",
+                            "en_riesgo": "8%",
+                            "desviadas": "0%",
+                            "futuras": "11%",
+                            "no_activas": "0%",
+                            "calificacion": 91.01
+                        },
+                        {
+                            "direccion": "Comercial",
+                            "nombre": "Diego Pérez Morett",
+                            "completas": "32%",
+                            "a_tiempo": "13%",
+                            "en_riesgo": "33%",
+                            "desviadas": "0%",
+                            "futuras": "22%",
+                            "no_activas": "0%",
+                            "calificacion": 57.69
+                        },
+                        {
+                            "direccion": "Capital Humano",
+                            "nombre": "Elizabeth del Muro",
+                            "completas": "15%",
+                            "a_tiempo": "12%",
+                            "en_riesgo": "39%",
+                            "desviadas": "0%",
+                            "futuras": "34%",
+                            "no_activas": "0%",
+                            "calificacion": 40.91
+                        },
+                        {
+                            "direccion": "Finanzas",
+                            "nombre": "Jorge Antonio Muro",
+                            "completas": "18%",
+                            "a_tiempo": "3%",
+                            "en_riesgo": "36%",
+                            "desviadas": "24%",
+                            "futuras": "19%",
+                            "no_activas": "0%",
+                            "calificacion": 25.93
+                        },
+                        {
+                            "direccion": "Jurídico",
+                            "nombre": "Francisco Flores Haro",
+                            "completas": "20%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "27%",
+                            "desviadas": "37%",
+                            "futuras": "16%",
+                            "no_activas": "0%",
+                            "calificacion": 23.81
+                        },
+                        {
+                            "direccion": "Investigación y Proyectos",
+                            "nombre": "Juan José Jiménez",
+                            "completas": "4%",
+                            "a_tiempo": "20%",
+                            "en_riesgo": "74%",
+                            "desviadas": "1%",
+                            "futuras": "1%",
+                            "no_activas": "0%",
+                            "calificacion": 24.24
+                        },
+                        {
+                            "direccion": "Administración",
+                            "nombre": "Luis David Rentería",
+                            "completas": "5%",
+                            "a_tiempo": "1%",
+                            "en_riesgo": "21%",
+                            "desviadas": "3%",
+                            "futuras": "70%",
+                            "no_activas": "0%",
+                            "calificacion": 20.00
+                        },
+                        {
+                            "direccion": "TI",
+                            "nombre": "Arturo Cendejas",
+                            "completas": "8%",
+                            "a_tiempo": "3%",
+                            "en_riesgo": "49%",
+                            "desviadas": "18%",
+                            "futuras": "10%",
+                            "no_activas": "12%",
+                            "calificacion": 12.22
+                        }
+                    ]
+                },
+                {
+                    "mes": "Junio",
+                    "porcentaje_avance_en_celoxis": [
+                        {
+                            "direccion": "Cadena de Suministro",
+                            "nombre": "Nayeli Martínez / Fernando Pérez Cuellar",
+                            "completas": "63%",
+                            "a_tiempo": "16%",
+                            "en_riesgo": "7%",
+                            "desviadas": "5%",
+                            "futuras": "9%",
+                            "no_activas": "0%",
+                            "calificacion": 86.81
+                        },
+                        {
+                            "direccion": "Comercial",
+                            "nombre": "Diego Pérez Morett",
+                            "completas": "32%",
+                            "a_tiempo": "5%",
+                            "en_riesgo": "12%",
+                            "desviadas": "35%",
+                            "futuras": "16%",
+                            "no_activas": "0%",
+                            "calificacion": 44.05
+                        },
+                        {
+                            "direccion": "Capital Humano",
+                            "nombre": "Elizabeth del Muro",
+                            "completas": "18%",
+                            "a_tiempo": "9%",
+                            "en_riesgo": "50%",
+                            "desviadas": "5%",
+                            "futuras": "18%",
+                            "no_activas": "0%",
+                            "calificacion": 32.93
+                        },
+                        {
+                            "direccion": "Finanzas",
+                            "nombre": "Jorge Antonio Muro",
+                            "completas": "18%",
+                            "a_tiempo": "12%",
+                            "en_riesgo": "21%",
+                            "desviadas": "42%",
+                            "futuras": "7%",
+                            "no_activas": "0%",
+                            "calificacion": 32.26
+                        },
+                        {
+                            "direccion": "TI",
+                            "nombre": "Arturo Cendejas",
+                            "completas": "20%",
+                            "a_tiempo": "5%",
+                            "en_riesgo": "11%",
+                            "desviadas": "39%",
+                            "futuras": "14%",
+                            "no_activas": "11%",
+                            "calificacion": 29.07
+                        },
+                        {
+                            "direccion": "Investigación y Proyectos",
+                            "nombre": "Juan José Jiménez",
+                            "completas": "4%",
+                            "a_tiempo": "24%",
+                            "en_riesgo": "70%",
+                            "desviadas": "1%",
+                            "futuras": "1%",
+                            "no_activas": "0%",
+                            "calificacion": 28.28
+                        },
+                        {
+                            "direccion": "Jurídico",
+                            "nombre": "Francisco Flores Haro",
+                            "completas": "20%",
+                            "a_tiempo": "2%",
+                            "en_riesgo": "17%",
+                            "desviadas": "51%",
+                            "futuras": "10%",
+                            "no_activas": "0%",
+                            "calificacion": 24.44
+                        },
+                        {
+                            "direccion": "Administración",
+                            "nombre": "Luis David Rentería",
+                            "completas": "8%",
+                            "a_tiempo": "1%",
+                            "en_riesgo": "46%",
+                            "desviadas": "5%",
+                            "futuras": "40%",
+                            "no_activas": "0%",
+                            "calificacion": 15.00
+                        }
+                    ]
+                },
+                {
+                    "mes": "Julio",
+                    "porcentaje_avance_en_celoxis": [
+                        {
+                            "direccion": "Cadena de Suministro",
+                            "nombre": "Nayeli Martínez / Fernando Pérez Cuellar",
+                            "completas": "63%",
+                            "a_tiempo": "15%",
+                            "en_riesgo": "12%",
+                            "desviadas": "4%",
+                            "futuras": "6%",
+                            "no_activas": "0%",
+                            "calificacion": 82.98
+                        },
+                        {
+                            "direccion": "Jurídico",
+                            "nombre": "Francisco Flores Haro",
+                            "completas": "44%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "12%",
+                            "desviadas": "34%",
+                            "futuras": "10%",
+                            "no_activas": "0%",
+                            "calificacion": 48.89
+                        },
+                        {
+                            "direccion": "Capital Humano",
+                            "nombre": "Elizabeth del Muro",
+                            "completas": "23%",
+                            "a_tiempo": "13%",
+                            "en_riesgo": "33%",
+                            "desviadas": "9%",
+                            "futuras": "22%",
+                            "no_activas": "0%",
+                            "calificacion": 46.15
+                        },
+                        {
+                            "direccion": "TI",
+                            "nombre": "Arturo Cendejas",
+                            "completas": "25%",
+                            "a_tiempo": "13%",
+                            "en_riesgo": "14%",
+                            "desviadas": "35%",
+                            "futuras": "13%",
+                            "no_activas": "0%",
+                            "calificacion": 43.68
+                        },
+                        {
+                            "direccion": "Comercial",
+                            "nombre": "Diego Pérez Morett",
+                            "completas": "26%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "11%",
+                            "desviadas": "21%",
+                            "futuras": "37%",
+                            "no_activas": "5%",
+                            "calificacion": 41.27
+                        },
+                        {
+                            "direccion": "Finanzas",
+                            "nombre": "Jorge Antonio Muro",
+                            "completas": "28%",
+                            "a_tiempo": "9%",
+                            "en_riesgo": "16%",
+                            "desviadas": "41%",
+                            "futuras": "6%",
+                            "no_activas": "0%",
+                            "calificacion": 39.36
+                        },
+                        {
+                            "direccion": "Investigación y Proyectos",
+                            "nombre": "Juan José Jiménez",
+                            "completas": "5%",
+                            "a_tiempo": "19%",
+                            "en_riesgo": "67%",
+                            "desviadas": "8%",
+                            "futuras": "1%",
+                            "no_activas": "0%",
+                            "calificacion": 24.24
+                        },
+                        {
+                            "direccion": "Administración",
+                            "nombre": "Luis David Rentería",
+                            "completas": "13%",
+                            "a_tiempo": "1%",
+                            "en_riesgo": "26%",
+                            "desviadas": "21%",
+                            "futuras": "39%",
+                            "no_activas": "0%",
+                            "calificacion": 22.95
+                        }
+                    ]
+                },
+                {
+                    "mes": "Agosto",
+                    "porcentaje_avance_en_celoxis": [
+                        {
+                            "direccion": "Cadena de Suministro",
+                            "nombre": "Luis Tornell",
+                            "completas": "64%",
+                            "a_tiempo": "21%",
+                            "en_riesgo": "9%",
+                            "desviadas": "1%",
+                            "futuras": "5%",
+                            "no_activas": "0%",
+                            "calificacion": 98.46
+                        },
+                        {
+                            "direccion": "Comercial",
+                            "nombre": "Diego Pérez Morett",
+                            "completas": "43%",
+                            "a_tiempo": "18%",
+                            "en_riesgo": "27%",
+                            "desviadas": "4%",
+                            "futuras": "4%",
+                            "no_activas": "4%",
+                            "calificacion": 91.49
+                        },
+                        {
+                            "direccion": "Finanzas",
+                            "nombre": "Jorge Antonio Muro",
+                            "completas": "49%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "31%",
+                            "desviadas": "20%",
+                            "futuras": "0%",
+                            "no_activas": "0%",
+                            "calificacion": 71.01
+                        },
+                        {
+                            "direccion": "TI",
+                            "nombre": "Arturo Cendejas",
+                            "completas": "37%",
+                            "a_tiempo": "2%",
+                            "en_riesgo": "29%",
+                            "desviadas": "25%",
+                            "futuras": "7%",
+                            "no_activas": "0%",
+                            "calificacion": 59.68
+                        },
+                        {
+                            "direccion": "Jurídico",
+                            "nombre": "Francisco Flores Haro",
+                            "completas": "44%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "5%",
+                            "desviadas": "44%",
+                            "futuras": "7%",
+                            "no_activas": "0%",
+                            "calificacion": 50.00
+                        },
+                        {
+                            "direccion": "Capital Humano",
+                            "nombre": "Gabriela González",
+                            "completas": "24%",
+                            "a_tiempo": "7%",
+                            "en_riesgo": "32%",
+                            "desviadas": "29%",
+                            "futuras": "8%",
+                            "no_activas": "0%",
+                            "calificacion": 45.28
+                        },
+                        {
+                            "direccion": "Investigación y Proyectos",
+                            "nombre": "Juan José Jiménez",
+                            "completas": "7%",
+                            "a_tiempo": "7%",
+                            "en_riesgo": "60%",
+                            "desviadas": "22%",
+                            "futuras": "4%",
+                            "no_activas": "0%",
+                            "calificacion": 24.14
+                        },
+                        {
+                            "direccion": "Administración",
+                            "nombre": "Luis David Rentería",
+                            "completas": "15%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "30%",
+                            "desviadas": "48%",
+                            "futuras": "7%",
+                            "no_activas": "0%",
+                            "calificacion": 23.81
+                        }
+                    ]
+                },
+                {
+                    "mes": "Septiembre",
+                    "porcentaje_avance_en_celoxis": [
+                        {
+                            "direccion": "Cadena de Suministro",
+                            "nombre": "Luis Tornell",
+                            "completas": "64%",
+                            "a_tiempo": "17%",
+                            "en_riesgo": "13%",
+                            "desviadas": "2%",
+                            "futuras": "4%",
+                            "no_activas": "0%",
+                            "calificacion": 96.97
+                        },
+                        {
+                            "direccion": "Comercial",
+                            "nombre": "Diego Pérez Morett",
+                            "completas": "43%",
+                            "a_tiempo": "4%",
+                            "en_riesgo": "46%",
+                            "desviadas": "4%",
+                            "futuras": "0%",
+                            "no_activas": "3%",
+                            "calificacion": 91.49
+                        },
+                        {
+                            "direccion": "Capital Humano",
+                            "nombre": "Gabriela González",
+                            "completas": "38%",
+                            "a_tiempo": "6%",
+                            "en_riesgo": "32%",
+                            "desviadas": "6%",
+                            "futuras": "18%",
+                            "no_activas": "0%",
+                            "calificacion": 86.36
+                        },
+                        {
+                            "direccion": "Jurídico",
+                            "nombre": "Francisco Flores Haro",
+                            "completas": "67%",
+                            "a_tiempo": "2%",
+                            "en_riesgo": "5%",
+                            "desviadas": "21%",
+                            "futuras": "5%",
+                            "no_activas": "0%",
+                            "calificacion": 76.14
+                        },
+                        {
+                            "direccion": "Finanzas",
+                            "nombre": "Jorge Antonio Muro",
+                            "completas": "49%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "31%",
+                            "desviadas": "20%",
+                            "futuras": "0%",
+                            "no_activas": "0%",
+                            "calificacion": 71.01
+                        },
+                        {
+                            "direccion": "TI",
+                            "nombre": "Arturo Cendejas",
+                            "completas": "40%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "14%",
+                            "desviadas": "41%",
+                            "futuras": "5%",
+                            "no_activas": "0%",
+                            "calificacion": 49.38
+                        },
+                        {
+                            "direccion": "Investigación y Proyectos",
+                            "nombre": "Juan José Jiménez",
+                            "completas": "9%",
+                            "a_tiempo": "11%",
+                            "en_riesgo": "61%",
+                            "desviadas": "18%",
+                            "futuras": "1%",
+                            "no_activas": "0%",
+                            "calificacion": 33.33
+                        },
+                        {
+                            "direccion": "Administración",
+                            "nombre": "Luis David Rentería",
+                            "completas": "14%",
+                            "a_tiempo": "0%",
+                            "en_riesgo": "30%",
+                            "desviadas": "49%",
+                            "futuras": "7%",
+                            "no_activas": "0%",
+                            "calificacion": 22.22
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -73,3 +73,5 @@ watchfiles==0.20.0
 wrapt==1.16.0
 wsproto==1.2.0
 zipp==3.20.2
+#se agrega para consulta con postgresql
+psycopg2-binary

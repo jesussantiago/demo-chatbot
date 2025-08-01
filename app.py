@@ -1,7 +1,7 @@
 import json
 import ast
 import os
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI, AsyncAzureOpenAI
 
 import chainlit as cl
 import openai
@@ -10,8 +10,17 @@ import prompts as prompts
 
 cl.instrument_openai()
 
-api_key = os.environ.get("OPENAI_API_KEY")
-client = AsyncOpenAI(api_key=api_key)
+provider = os.getenv("OPENAI_PROVIDER")
+
+if provider == "azure":
+    client = AsyncAzureOpenAI(
+        api_key=os.getenv("OPENAI_API_KEY"),
+        api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
+        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+    )
+else:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    client = AsyncOpenAI(api_key=api_key)
 
 MAX_ITER = 5
 
@@ -83,8 +92,14 @@ async def call_tool(tool_call_id, name, arguments, message_history):
     )
 
 async def call_gpt4(message_history):
+
+    if provider == "azure":
+        model = os.getenv("AZURE_OPENAI_DEPLOYMENT_ID")
+    else:
+        model = "gpt-4o"  # o el modelo que se quiera usar en OpenAI
+    
     settings = {
-        "model": "gpt-4o",
+        "model": model,
         "tools": tool_defs,
         "tool_choice": "auto",
         "temperature": 0,
@@ -95,13 +110,19 @@ async def call_gpt4(message_history):
             messages=message_history, stream=True, **settings
         )
 
+        print(f"Usando modelo: {model}")
+        print(f"Proveedor: {provider}")
+
+
         tool_call_id = None
         function_output = {"name": "", "arguments": ""}
 
         final_answer = cl.Message(content="", author="Assistant")
 
         async for part in stream:
+
             new_delta = part.choices[0].delta
+            
             tool_call = new_delta.tool_calls and new_delta.tool_calls[0]
             function = tool_call and tool_call.function
             if tool_call and tool_call.id:
